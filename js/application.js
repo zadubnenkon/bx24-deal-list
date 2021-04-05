@@ -53,7 +53,7 @@ application.prototype.displayDealsByStage = function (stage, button) {
     $('#stage-btn-block .btn.active').removeClass('active');
     $(button).addClass('active');
 
-    $.get( 'https://uttest.bitrix24.com/rest/1/mxd5fcd4x0ijzegt/crm.deal.list/?filter[STAGE_ID]=' + stage,
+    $.get( 'https://uttest1.bitrix24.ru/rest/1/demfzvh9s1hbm9lg/crm.deal.list/?filter[STAGE_ID]=' + stage,
         function(data) {
             if (data.result.length > 0) {
 
