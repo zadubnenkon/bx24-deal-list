@@ -1,5 +1,4 @@
-﻿// our application constructor
-function application () {
+﻿function application () {
     this.arDeals = {};
     this.dealIds = [];
     this.contactIds = [];
