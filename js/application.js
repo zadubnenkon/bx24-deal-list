@@ -70,7 +70,7 @@ application.prototype.displayDealsByStage = function (stage, button) {
                     };
                 }
 
-                curapp.BatchGetData(curapp.arDeals);
+                curapp.BatchGetData();
 
             } else {
                 $('#deal-list').html('<div class="bs-callout"><h4>Подходящих сделок не найдено!</h4></div>');
@@ -78,7 +78,7 @@ application.prototype.displayDealsByStage = function (stage, button) {
         });
 }
 
-application.prototype.BatchGetData = function (arDeals) {
+application.prototype.BatchGetData = function () {
 
     curapp = this;
 
