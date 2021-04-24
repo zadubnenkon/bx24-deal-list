@@ -12,7 +12,7 @@
         "KZT" : "&#8376;"
     }
 }
-
+//comment1
 application.prototype.displayDealStageButtons = function() {
 
     var dealHTML = '';
